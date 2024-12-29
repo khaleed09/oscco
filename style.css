@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 3px;
+    text-decoration: none;
+    list-style: auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    background-color: #041c3e;
+    justify-content: center;
+    color: #ffffff;
+    align-items: center;
+    border-bottom: solid 2px #1b9bff;
+    position: fixed;
+    width: 100%;
+}
+.menu{
+    display: flex;  
+}
+a{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.text,.oscco-content,h1,.college{
+    text-align: center;
+}
+.text, .update{
+    background-color: #74c5f0;
+    padding: 20px 0px 20px 0px;
+    color: #041C3E;
+}
+#peter-img{
+    width: 300px;
+    height: 400px;
+    background-color: #041C3E;
+    box-shadow: 5px 10px 18px 8px rgb(180, 180, 180);
+    border-radius: 20px;
+    margin: 50px 0 50px 0;
+    margin-left: 120px;
+    color: white;
+}
+#john-img{
+    width: 350px;
+    height: 440px;
+    background-color: #041C3E;
+    box-shadow: 5px 10px 18px 8px rgb(180, 180, 180);
+    border-radius: 20px;
+    margin: 50px 0 50px 30px;
+    margin-left: 30px;
+    color: white;
+}
+#paul-img{
+    width: 300px;
+    height: 400px;
+    background-color: #041C3E;
+    box-shadow: 5px 10px 18px 8px rgb(180, 180, 180);
+    margin: 50px 0 50px 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+    color: white;
+    
+}
+.paul-img, .john-img, .peter-img{
+    border-radius: 100px;  
+}
+h1{
+    color: #041C3E;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.oscco-content{
+    margin-bottom: 20px;
+    
+}
+a:active, a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+.image{
+    text-align: center;
+    display: flex;
+    padding-left: 120px;
+}
+.buliding-img,.student-img{
+    width: 100%;
+} 
+.icon{
+    text-align: center;
+    border-radius: 100px;
+    margin-top: -20px;
+}
+.logo{
+    justify-items: center;
+    display: flex;
+    padding-left: 670px;
+}
+.twitter-icon, .facebook-icon,.youtube-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background-color:  #041c3e;
+}
+.footer {
+    display: flex;
+    padding-left: 150px;
+    background-color: #041c3e;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+}
+ul{
+    padding-top: 10px;
+}
+li {
+    list-style: none;
+}
+.dept, .group, .motto, .contact-info{
+    padding-left: 60px;
+}
+h3{
+    color: white;
+}
